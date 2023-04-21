@@ -20,7 +20,7 @@ This report will introduce and analyse the project through 6 sections, which are
 
 | Official Full Name      | Student ID (MTech Applicable) | Email (Optional)   |
 | ----------------------  | ----------------------------- | ------------------ |
-| PRADEEP KUMAR ARUMUGAM  | A0261606J                     | e0983000@u.nus.edu |
+| Pradeep Kumar Arumugam  | A0261606J                     | e0983000@u.nus.edu |
 | Jonathan Lim Ching Loong| A0261707E                     | e0983101@u.nus.edu |
 
 
@@ -34,7 +34,7 @@ This report will introduce and analyse the project through 6 sections, which are
 
 ## Technical Video
 
-[![RENTAL BUDDY System Architecture](/resources/bg3.png)](https://drive.google.com/file/d/1gxVERHpCPCUS9goCHPsK6Xj24E0EbyIY/view?usp=share_link "System Architecture")
+[![RENTAL BUDDY System Architecture](/resources/bg3.png)](/Demo%20Videos/Submission%20Video%202.mp4 "System Architecture")
 
 ------
 
@@ -120,5 +120,4 @@ Datasource we used:
 
 ## SECTION 7 : MISCELLANEOUS
 
-[Miscellaneous]()
 
