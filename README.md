@@ -34,7 +34,7 @@ This report will introduce and analyse the project through 6 sections, which are
 
 ## Technical Video
 
-[![RENTAL BUDDY System Architecture](/resources/bg3.png)](/Demo%20Videos/Submission%20Video%202.mp4 "System Architecture")
+[![RENTAL BUDDY System Architecture](/resources/bg3.png)](https://drive.google.com/file/d/1gxVERHpCPCUS9goCHPsK6Xj24E0EbyIY/view?usp=share_link "System Architecture")
 
 ------
 
