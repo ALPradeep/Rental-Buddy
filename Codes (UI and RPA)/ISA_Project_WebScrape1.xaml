@@ -1,0 +1,317 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1142.4,4480" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="80">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="59">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="1152.8,4415.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="C:\Users\Jonathan Lim\Desktop\KB_UIPath.xlsx" Name="strExcelPath" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtStations" />
+      <Variable x:TypeArguments="x:String" Name="strTravelTime" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dtStations]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="1090.4,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet2" WorkbookPath="[strExcelPath]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Private: Use Browser Chrome: MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG" sap:VirtualizedContainerService.HintSize="1090.4,4019.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1056.8,3802.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtStations]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="994.4,3688.8" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="VStation" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="960.8,3571.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Row Body" sap:VirtualizedContainerService.HintSize="898.4,3457.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="Each Row Sequence" sap:VirtualizedContainerService.HintSize="836,3344" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each Coumn in Data Table" sap:VirtualizedContainerService.HintSize="773.6,3230.4" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[dtStations.Columns]">
+                          <ui:ForEach.Body>
+                            <ActivityAction x:TypeArguments="x:Object">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="x:Object" Name="HStation" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Column Body" sap:VirtualizedContainerService.HintSize="738.4,3104" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If Condition="[HStation.ToString = &quot;Station Name&quot; or VStation.item(&quot;Station Name&quot;).ToString = HStation.ToString]" sap:VirtualizedContainerService.HintSize="676,2990.4" sap2010:WorkflowViewState.IdRef="If_1">
+                                  <If.Then>
+                                    <Sequence sap:VirtualizedContainerService.HintSize="400,104.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence DisplayName="Navigate and Entry" sap:VirtualizedContainerService.HintSize="598.4,2707.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="536,2595.2" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                                        <TryCatch.Try>
+                                          <Sequence sap:VirtualizedContainerService.HintSize="496,2018.4" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://mrt.sg/fare" Version="V3" />
+                                            <uix:NClick ClickType="Single" DisplayName="Click 'Select starting station'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="87, 430, 465, 28" DesignTimeScaleFactor="1" FriendlyName="'Select starting station'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;span' parentid='station-container-a' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='station-container-a' tag='SPAN' class='select2-selection__rendered' aaname='' check:innerText='Select starting station' /&gt;" Guid="20961e3e-f7cd-4efa-9798-b381851d5c81" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdUAAAAgCAYAAABEkeLpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAASASURBVHhe7Zs9T+swFEDfz+cPMPAHKoTgLX0siLEdmRi6FLGDxMDawS/XX7nXcZw2BCHgnCtLJL61r1PJp47EnydHEARBEMQSkaX6+Pbo7jf37vrm2l1dXdFoNBqNRms08aV4U/yZXOqlKjekc7/fu8Ph4AAAAKCN+FK8Kf5MYvVSFdNKBwAAAJyG+FM8mqUqluWECgAAcDriT/Folqq8GwYAAIB5iEeRKgAAwAIgVQAAgIVAqgAAAAuBVAEAABYCqQIAACzEbKnubi/cxYVqq417jX3T7Ny6+8x6Fy9n8+o2q7njSA0rt3mJlzN43a7cxW2afKk1nchufdKztzXH71FdAwDAfGZJtbYRB8muO7Ucw0+U6hfxQakCAMByzJDqmBCH9/0G3t0LTQvslFwh5Od+L4Ug1HRvta1rxZ6ok/TteLkOEZS6r38kSH2r7SZ/7u8/Va+Xml2TzKvzpZln9rJxq9y3dhtZ/6gca+uX27revla75q7FfPOM41zlDyT7PegfSVJD971s63MCAPwk7u7u3NnZWbVJ3xgzpBplNnE68puzzvECsFJLkmnnhvl6aerr9km1HNdeR0kkefs5h+K3QrKy9/eykOyagtj6/PB5u/68piTY6jNtrb9D6laf8/MOnmXxrJVEtVRtjfWa+7FDHXosAICfxOXl5UCocq/FDKkKcYNVzYpN+q2ABNnAgwy0gCZyjWBLTpOqpT6vZiCcYiwrKL0m+1mPF2ecrxCh4POrtZZSLaiMZbF12Zp1nTYvoOce9refLwDA9+b9/d2dn59nocrfcq/FTKkqiteYfs8192wbbNATue2Nuy3VNE8YrxSo9FWkWtbzCVItxSY01xlPm76VOSNS9eOlz6i6yrlznao+jfQjVQD4rTw/P2epyt9TfFyqGXWqGdmge0qpjue2N+4pqSZCXhCMfp2p5lUyrYmxVocV1CdKNaFqzJ8vpOrH8Tn2tW2qq5wbqQIAtHl4ePDtGE6Xqj811V/H9iIZbsAW3T+R25iv29aPlGqinLeXSE10nyXV2unS5x8rKP1MzFi152HrGpVqkRdQP5Qq/UgVAMAy46QaT33lZlqcdPyGa2SoN+XKRj+aqzf2QC+CtlQHm74RtMxR1KtyQ029GAdjdfh7WVB2TU2pxty8pnQCrQqqtX65GEq1z43flarL1mzHCmvuvwd7bdcn1J4JAMBvZoZUA34zFhHkpqUYKHP6DXm4QY/nCiE/9zfkZ+mlElovUSHNGSRU5HbjaalUBZJk6HNOkWq6TvPFf6mprqHD5HbN1JGeTRy7yF3v4rrS2KbmYZ35eaqcAFIFAJhitlRhWbygxqQKAADfAqT6FZjX0MLwFAgAAN8PpPpFtF93AwDAdwSpAgAALISR6vXNtTscDrELAAAAjkX8KR7NUr3f3Lv9fh+7AQAA4FjEn+LRLNXHt0dvWengxAoAADCN+FK8Kf4Uj2apJrGKaaVT3g3TaDQajUYbb+JL8WYSqkSWKkEQBEEQHwukShAEQRALBVIlCIIgiEXiyf0HrYCZFIb5Fx4AAAAASUVORK5CYII=" InformativeScreenshot="96a813643ee0057ba4e5b24082482f7e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type VStation into Starting Point" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Text="[VStation.Item(&quot;Station Name&quot;).ToString]" Version="V3">
+                                              <uix:NTypeInto.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="91, 461, 1430, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='select2-search__field' aaname='' /&gt;" Guid="199fec76-aef8-49b7-b367-5aae86e540bb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAABZoAAAAiCAYAAADWMWxNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHcSURBVHhe7dzLbYVAEERRh8ASUiMFkiWPSQFprMJvRvIHS3Zvz5HuhoYEasFbBwAAAACAAkMzAAAAAAAlc2i+rquf59n3fe/btvVlWSRJkiRJkiRJmmU7zoacLTmb8jCH5hzWdf3xY0mSJEmSJEmSRtmSsykPc2jOCp0XjuPorbXXUwAAAAAA+JDtOBtytuRsysMcmsfvMozMAAAAAAA8yYacLTmb8jCH5hwSAAAAAAD85uuebGgGAAAAAOBPDM0AAAAAAJQYmgEAAAAAKDE0AwAAAABQYmgGAAAAAKDE0AwAAAAAQImhGQAAAACAEkMzAAAAAAAlhmYAAAAAAEoMzQAAAAAAlBiaAQAAAAAoMTQDAAAAAFBiaAYAAAAAoMTQDAAAAABAiaEZAAAAAIASQzMAAAAAACWGZgAAAAAASgzNAAAAAACUGJoBAAAAACgxNAMAAAAAUGJoBgAAAACg5HFo3rbtPrTWXk8AAAAAAOCzbMjZkrMpD3No3vf9Ph7HYWwGAAAAAOCbbMfZkLMlZ1Me5tB8nmdf1/V+QZIkSZIkSZKkp7IlZ1Me5tB8Xdd9yAo9fqMhSZIkSZIkSdIo23E25GzJ2ZSHOTQDAAAAAMB/GJoBAAAAACjo/R3tqGOSUHuh3QAAAABJRU5ErkJggg==" InformativeScreenshot="8e1e6f7ed239781d6439c591a3f60ed1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NTypeInto.Target>
+                                            </uix:NTypeInto>
+                                            <uix:NClick ClickType="Single" DisplayName="Click first choice" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Timeout="5" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="93, 458, 145, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Yishun [NS13]'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;ul&amp;gt;li&amp;gt;strong' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='Yishun [NS13]' /&gt;" Guid="6c55cb3b-ec00-4205-8dbb-3b9c219e5e18" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGIAAAAUCAYAAAB23ujSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIYSURBVFhH7VVLjgIhEJ1jzs3mAN7DnTcw8QLu3bgwMTZT3VDUhyrESTtipJKXKBSPqveA/vr+uYaB12MY0QmGEZ1gGNEJhhGdIBuxPYUYp5tMOkxpYgrb3RTO88/LFDY8x8HmuCwM56PifCpuIW27xLI31g2x31m50BvnYPlLuP2m9cW8UUN1XNwISjoeaGx/0WPt6NEIKRrmciPk+hxa7HxAIRQnasYjatBkBADJEzEKmW+JcSNyDga7UdyIfOMg6FQaQqQasEjimEQT8mRzGJzqhJMA/v7UB4mHe+aeQXCtR6FRwSd1wTH1jeA3oNKQ3kSFFrGIXHi7EUXw5gXuG0Fz9VzvFZhrivWl9W4tgNQP52owAuCeHjanjBA5DFlEV/gHjECOXB9bI1ARFzi2yLecUCMXxsqn5c5ejhH4CmhD24wAlAImaCNyIxR157FJbKzdCJ9Do27EhtVs3voE/pRilM9hWu8Y4eU0G4Fi8HdtQWGEGsdI6/5ihF6zvhHwH/sDnli3xzUD+aRwYq4qMt0w/Y3hfOsYkSFFaDcCi6Sicc1TjADIE0+5lkjWWERpBB3KxKn/A1Y3AgmLeOBGoPA6cM19Do02IyhvDiPXiLanyemJabm6EfNYYYYxVxVRNA7jae/nG8FrV1yGGaUJMywj4rgwQ+nYbsRbwzCiM3yYETF4s6+HX9sw4l/xUUa8J4YRXeAafgHtTkAe1QyhfQAAAABJRU5ErkJggg==" InformativeScreenshot="04aa695dad8a1e6142b6d076d17d03d5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NClick>
+                                            <uix:NClick ClickType="Single" DisplayName="Click 'Select destination'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="714, 391, 156, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Select destination'" FullSelectorArgument="&lt;webctrl aaname='Select destination station' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select destination station' tag='SPAN' type='' class='select2-selection__placeholder' check:innerText='Select destination station' /&gt;" Guid="f4b2cf5c-f7f2-499b-84e9-4638c1dde20f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKAAAAAUCAYAAAAKlDZOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMrSURBVGhD7VeBjeMgELz+O0gDbsBKB04N7uFSBAe7YGYHsPG9c5ZejGTpCLDMzA5O7ssNDNyIEcCBWzECOHArRgAHbsUI4MCtKAO4zu7xeMAzueU7znXg/ZrcY1rcO45/C6nzXOOoA9+Lm05yrWN1M9S5Sk8Aa1qf3t8zGi+B1XeIkAfQfzVnG0AJ3+wpAmIg584z/7cAXonTmj6Cfwvg1TABbKW7/DyICG/H+MBcEUB6o3KQpfY2r+GXGumzHfG4d3rOFMC3W6Y8z3Vq57KuwNXokZDPbtnhZ+v6J3pT08S+mjXmRRBD80Iv6UVB6NUnnzY4295pDeZs19hgh7XTa6memWACqAYc3Q4VkQtpo6eXtsE0TMiBUfSWMmtpLH+jUIIYse1NYUu1LacANG7vXNXX4Cj8c53kRTrHcvKIzUlesaaCE3hlxzE4rLfhj9XDY6vviLOMYR4561rIC41lLXuJefAofgPqJnhIpBRh4fHNED7NYtUkTnzez0G2qJ6zobIXw02mKbLxmWMNtkFmLV2gANOQApYna8p7a17gJSrn9zSc0VeCzmoGsLzkAehH4U3Fv/KfkA3xlnkyeCOkaPzMPhxAFVJdG0hVyCC4WQbVvdlY2Vs7d9uD3Np1AkwzOwPI5x8GsOFFmP9NANP6Hn0JLc7tAJacAlBj4c25AGag2JrhiLy2TnDDpwPYbA4CLxl+3eXaptZBAGVtUeuOACZ06tvh/IcBrBcUyHc7v+HqyPP1V3TGznkeKKREZS+KA759wHrhb2pQVwBVr9VjebKm/Waif+X8UR8sWvqOOf/pV7CIogXlQUoQD0YzjDESBKxnaxUmctCRPMHu1br5rDjG/XuXyAQWG0RrOwKYfUmccjNZEzZI5uDS2DGFwqPQACjmmvqOOcteqGVCJXXBDxqfDqBAiiiJ9Ngb4iGFYA0QZPFqZF6LwQ0Qkts8kNvOyE1h4N7Z/7tvxWnTcm2sk43Wx5qS6gauRs9uAD3Il3mN5xTzyoUbZL1CvucCeEbfIefNR63BnG1edrwJqPjX9RtwYOBTGAEcuBUjgAO3YgRw4FaMAA7cCOd+AEtDZRsy8gvrAAAAAElFTkSuQmCC" InformativeScreenshot="a7b83cf91acc55b9b35d4fab7903e5fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type HStation into Destination" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Text="[HStation.ToString]" Version="V3">
+                                              <uix:NTypeInto.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="481, 416, 1430, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='select2-search__field' aaname='' /&gt;" Guid="f4d80f1a-e998-40db-992a-c9910b5ccfca" ImageBase64="iVBORw0KGgoAAAANSUhEUgAABZoAAAAiCAYAAADWMWxNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHqSURBVHhe7dzBiYNgFIXRKSFLrSPd2ILN2ocr98I/XI2BmX8ykLztOfBB8JkG7sKvBgAAAAAAH9i27cjQDAAAAADAR7qhed/3tixLm6apjePYbrebJEmSJEmSJEnPsh1nQ86WnE25G5pzGIbhzz9LkiRJkiRJknSVLTmbcjc0Z4XOC/M8t3VdH08BAAAAAOCU7TgbcrbkbMrd0Hx9LsPIDAAAAADAK9mQsyVnU+6G5hwSAAAAAAD859qTDc0AAAAAAHzE0AwAAAAAQMlbQ/P9fn/8AgAAAACAk6EZAAAAAIASQzMAAAAAACWGZgAAAAAASgzNAAAAAACUGJoBAAAAACgxNAMAAAAAUGJoBgAAAACgxNAMAAAAAECJoRkAAAAAgBJDMwAAAAAAJYZmAAAAAABKDM0AAAAAAJQYmgEAAAAAKDE0AwAAAABQYmgGAAAAAKDkraEZAAAAAAB+MzQDAAAAAFBiaAYAAAAAoOTl0DyO43FY1/XxBAAAAAAAfsqGnC05m3I3NE/TdBzneTY2AwAAAADQyXacDTlbcjblbmhelqUNw3C8IEmSJEmSJEnSq7IlZ1PuhuZ9349DVujrMxqSJEmSJEmSJF1lO86GnC05m3I3NAMAAAAAwDsMzQAAAAAAlJxD89a+AcwiMipi+jSzAAAAAElFTkSuQmCC" InformativeScreenshot="d5c2ac7e294f89a84638a3ed1b33b8b0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NTypeInto.Target>
+                                            </uix:NTypeInto>
+                                            <uix:NClick ClickType="Single" DisplayName="Click 'Bedok [EW5]'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Timeout="5" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="483, 458, 86, 16" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Bedok [EW5]'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;ul&amp;gt;li&amp;gt;strong' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='Bedok [EW5]' /&gt;" Guid="ab8a7fb2-c3eb-4386-99a2-2a23622fc5d2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAAUCAYAAAAN+ioeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIRSURBVFhH7ZSNjcMgDIVvp8xVVom6STpJ1DEqZQcOCsb2w0nT9I7rVTzJagPEP59NvnxXE3XQjdRBN1IH3UgddCMp0Nfz4IfBtnHOhw7p6sfo5zT5Ja88EuWyL272n81dQpTb5J1YQxvnxU+n+N/56ZbdBDGDMXgl4Vl6lhb3YP3MHnaDxoSe0zuCtmJoP/V6hm/6PgAai6P1ewFZy8WxQ6MJsmnjbIHGqZAThLnwWZkDC0BEEYyt5s5jik1AAGCJhefys51LEJ4Pego0rWvIZFykvR+sFG1dvWjcMBmzNE0krnUQNJyhvHEwaJ3A1vXBoO0FbVp5iSCJolSHqWjRMApMReNzUEk+x6Fc3CmvbwHbAm0anZPvUV3yE5DOpVzqIdAmYL8EOhiCrCw6NidJTwjF0TfHPqN8r+ooaJmLjl9Nd3lHNuS+UE38btD46dATSIENi/s7QHMRaTdJn2HQLkx1+lXXUwlhBJl51CqQ8s2pYIX1u5+tRiPYnwFtfDqUuBHkp3wWqGjlL6mcycmpXIzEtY6Dxsnn2rmOaKUBRizK9emJXjNyVKCAVWDRStHULLT6O5h81tdVawP0itXgounhkTy4AWucxLuvgObEkhAm7ktf7jKlYtR0IWy7yFIggTOn+hXQIlfwzTXq3KI0K9h/BPr/ygD9l/p80MnwdrUT3NIO+rf08aDfXx10E3n/DdGgF0u1RWAnAAAAAElFTkSuQmCC" InformativeScreenshot="b4faee821f8f4e1312448b4ad7dc4580.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <uix:NClick ClickType="Single" DisplayName="Click 'Calculate Fare'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="1111, 503, 151, 46" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Calculate Fare'" FullSelectorArgument="&lt;webctrl id='submitbutton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='submitbutton' tag='BUTTON' type='submit' class='btn btn-primary btn-lg' aaname='Calculate Fare' check:innerText='Calculate Fare' /&gt;" Guid="0b8a1820-b8f3-4062-a580-3b3d0f270ed3" ImageBase64="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" InformativeScreenshot="cb642003ebdacb516da0c5db91b18078.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <uix:NGetText DisplayName="Get Text &quot;Travel Time and Fare&quot;" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="76d6c31c-eddb-43b4-9e2b-70fcb3d9b4d9" TextString="[strTravelTime]" Timeout="5" Version="V3">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="https://mrt.sg/fare" DesignTimeRectangle="23, 499, 1239, 236" DesignTimeScaleFactor="1" FriendlyName="'...Jurong East'" FullSelectorArgument="&lt;webctrl id='results_tripcalc' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='results_tripcalc' tag='DIV' type='' class='' aaname='...: This trip will take about 68 minutes (including average waiting and changing times if any). For stored value cards, the fares are $2.18 (adults), $0.65 (children/students), $0.94 (senior citizens and disabled persons), and $1.66 (workfare concession). Single ticket fares (ticketing machines) have been phased out in March 2022.   Start at Jurong East (), take the East West Line (towards Pasir Ris ①),Alight at Tanah Merah (), change to East West Line (Changi Airport Branch) () (towards Changi Airport ③),Arrive at destination : Changi Airport (). ⓘ  ' /&gt;" Guid="04d478dd-c653-4d82-8e68-429fabf56374" InformativeScreenshot="a6a318f9ec8b67d6200374cfdcff1e65.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                                      <uix:Target DesignTimeRectangle="35, 501, 199, 16" ElementType="Text" FriendlyName="'Jurong East'" FullSelectorArgument="&lt;webctrl parentid='results_tripcalc' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='results_tripcalc' tag='STRONG' type='' class='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMsAAAAUCAYAAAAjk8nJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAO5SURBVHhe7ZjrbdtADMezk+eKBmiHELxGP9mTBP7QIQJ4B0UnHd+k7uzIrQLwBxCofQ8+/uQl6duUJEkXOSxJ0kkOS5J0ksOSJJ3ksCRJJ/GwfIzT6XSaTudb/eIncZvGEntgw/Ve932X+3R5H6bLZ/3oUeq4Qw3v10HlMc5ZMj4v01C+f7/MUf0voO4qNgPTx4kXct1PpydwdMtheZoyKOW+jWHZqYa3s4yfjPk+xLB0AnXRORyFQLfuYbHTDs0Crwi9KiOIC85ASDARBJ278NdTBcpf1vFD+9Y88cLh3XVpQa+DsOCfzAygaIhiLBa1tjm8uJfnwvzrGpdhYffLu7fy3UOHnrrDmWHuE91TK7rX8PN5rH006/CX8r2wx8TUsrP3sGd//6K9de1WY37BsJAtQuhgwfAFtOfAUEjTeMM0CN+aR0TTBme21u2aEcnEXO8131dTTQnATxU5xDOlrvynSFTnjQFfDfLdQ4eOuvOh5v+uy4VoWND4Wccw3mjPRu+NfwLdZl4yLFxYENueg332nDxD+/EOFC0SJRaemkcDfnRzRT70fgdVQ5t7AWL17mnFwMDGoHvCQVvQ8e+hA9wRxyv7yK9hOCzu40BncV+t9zO9t2B0W3nJr2HkIihevXu9y9nTWje+NVQEa7Ypoah6HYsPJl5AX2iBLnrjJbVN3eEDcO6O7vXz3UMHbw/H5mP7yn7n7cF8RUNX/0sNgliaOc1o3Sp1WJzmUwdswNqR59i5t9AK+GGRNEERBFo4KyTgN1e8HzFFr3F1Dwv5NmtLs7D8msPSyncPHRp1hxhdozMPDYuoJa+vjq3SzGnG6LaihoVEiQLGC+DCRqH6fxSycyIh2o93GN+ahmgFU2w4Eze/rAnE9ciw2Do3/bq50j0Yf2tYmvnuocN23eWjY63Ve+i3gINHddM9+lTvFYxuK/RrGCbOjQnorhdrFAqTUmZEY+eESPSZrPcP/MBKEaK4TPNE66xhi6nCLoi467mojt75BeVHGNOnd1iM6Xy/o0PQAwuwxmKu6CZ/bFis4UP0TO8VPN1m3vDiGQy6Gl8r8JdhuN6qiB2F0kGLxugQaYZiK8FDA3miFODOwJQo+J3xa+8RNeFFdZudNzprEtV0ogkCtDYm99awsM+LmXz30GGjByBnFh+C/bGeAx/gV39eYPnu8V/HMl6t2/o5/gP/QOCQYqIboiQv41A6OI/Dq/kRwyJeRG7ua568ikPpkMMSY/44/IdFSojD6JDDkiTHJYclSbqYpi+XN7Icbq5vPwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector" />
+                                                      <uix:Target DesignTimeRectangle="23, 461, 1192, 36" FriendlyName="'From 26'" FullSelectorArgument="&lt;webctrl tag='EM' /&gt;" FuzzyAccuracy="0.52" FuzzySelectorArgument="&lt;webctrl tag='EM' type='' class='' aaname=' From 26 Dec 2022, fares are raised by 1 to 5 cents per journey (depending on fare types and distances) for stored value card holders. Thomson-East Coast Line (TEL) Stage 3 has commenced commuter operations - 11 stations between&amp;#x9;Stevens to Gardens By The Bay are now in service.' check:innerText='From 26 Dec 2022, fares are raised by 1 to 5 cents per journey (depending on fare types and' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                            <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[VStation.item(HStation.ToString)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strTravelTime]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                        <TryCatch.Catches>
+                                          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="502.4,264" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ActivityAction x:TypeArguments="s:Exception">
+                                              <ActivityAction.Argument>
+                                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                              </ActivityAction.Argument>
+                                              <Sequence sap:VirtualizedContainerService.HintSize="496,193.6" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                                  <Assign.To>
+                                                    <OutArgument x:TypeArguments="x:Object">[VStation.item(HStation.ToString)]</OutArgument>
+                                                  </Assign.To>
+                                                  <Assign.Value>
+                                                    <InArgument x:TypeArguments="x:Object">["Not Available"]</InArgument>
+                                                  </Assign.Value>
+                                                </Assign>
+                                              </Sequence>
+                                            </ActivityAction>
+                                          </Catch>
+                                        </TryCatch.Catches>
+                                      </TryCatch>
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
+                              </Sequence>
+                            </ActivityAction>
+                          </ui:ForEach.Body>
+                        </ui:ForEach>
+                      </Sequence>
+                    </Sequence>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALPSURBVFhHtZbPSlwxFMYjiDOCVlAESzdStLiwQkE3+hZC6xTxCXQjPoGbFmpxo1j/zGz0MVyIKLWULqqzEFxWXNiKm3bQtmD6nUwyJ7meuZPpOAd+ITnfOSf3TnIzUbGmtXoEXoMt8Bl8B38s1CffJsiBTpvWuKHYM1AAJaAjodg8GLRl6jckt4P34C+QJomBfp13IGvLxhkSBkERSEX/hyPw2JZPNwS+ALSmUqFGOAcjdhrZEEBv3ozJHfQQfXa60CBkwVcb2Ey+gHY7LRuctOFMEA0lVleDQvdYWZHziETsInxscNCnVtnt5JIYHg6K3IN0KY9IxP4EvBQY0HdeCSBXNQ4OOM7n8FCOdwg5a/CTYk644JBxSRLT0xznMzMjxzuEnF+gEz1zvAaiVMCRySh9dRXGX18rnc3K8Q4/3mMKrTnbA0EqMDrK/aWlMH55mbWxMe77+PEeG2jNn0ggSAXyee4PDCh9d8fxQ0OsFQrc9/HrexyhVT8STrFAqaR0VxePd3fLsXt77COd4tzYJzmH5RKt+p1wVi0wN8fjycmyL5dj3+xser7ALdr4BygWedzaqvTxsdJtbew7OUnPFzAPELUETpuYYF9/P/fHx+PyE5gliNqETtvZkfXt7bj8BGYT0jUqENIK3OJH6+kJte5upW9u4vITrKM1d7hAqFVgYSHU5udD3dccvu7xEq3qAHQsVoRaBc7OlG5pYe30NNT9PIevW2jODmikmgtkRXRJPr5ei8j8TfjLhgHdhOgCaURyJXFaDBH59Ok/hZ8NDrq9xhZIJSL/LXyhwUlXMrq9JoMfmo8gY6cNDUIf+GYDm8EFeGKnkw0BI4Bur1KBRqAXe26nSTcE9oJ9m/gQ0M8uX8erGRIyYBEEZ0Sd0G5/A+Q1jzEk075YA/U8CMVugPBTa8RQjE7MKbAOPoFLQG9IUJ98H8ArUD7happS/wAjAsSB0RTWhAAAAABJRU5ErkJggg==" InformativeScreenshot="944cb497580f8b7b8ff5fe9f2b12acd4.jpg" Selector="&lt;html app='chrome.exe' title='MRT/LRT Fare Calculator, Travel Time and Route Guide - MRT.SG' /&gt;" Url="https://mrt.sg/fare" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[dtStations]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="1090.4,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet2" WorkbookPath="[strExcelPath]" />
+  </Sequence>
+</Activity>

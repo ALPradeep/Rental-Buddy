@@ -1,0 +1,8 @@
+python 3.0+
+pip
+flask
+pandas
+requests
+time
+numpy
+Tagui "Please refer 'https://www.yuchenkuang.com/category/TagUI/TagUI-Python-Setup/' for instellation steps for Tagui"
