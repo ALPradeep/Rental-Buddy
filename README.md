@@ -21,7 +21,7 @@ This report will introduce and analyse the project through 6 sections, which are
 | Official Full Name      | Student ID (MTech Applicable) | Email (Optional)   |
 | ----------------------  | ----------------------------- | ------------------ |
 | Pradeep Kumar Arumugam  | A0261606J                     | e0983000@u.nus.edu |
-| Jonathan Lim Ching Loong| A0261707E                     | e0983101@u.nus.edu |
+| Jonathan Lim Ching Loong| A0261707E                     | <contact above>    |
 
 
 ------
