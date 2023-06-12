@@ -20,8 +20,7 @@ This report will introduce and analyse the project through 6 sections, which are
 
 | Official Full Name      | Student ID (MTech Applicable) | Email (Optional)   |
 | ----------------------  | ----------------------------- | ------------------ |
-| Pradeep Kumar Arumugam  | A0261606J                     | pradeepkumaravsp@gmail.com
- |
+| Pradeep Kumar Arumugam  | A0261606J                     | pradeepkumaravsp@gmail.com |
 | Jonathan Lim Ching Loong| A0261707E                     | <contact above>    |
 
 
